@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_testwebjob984_name": {
+            "value": null
+        },
+        "config_web_name": {
+            "value": null
+        },
+        "storageAccounts_storagewebjob002_name": {
+            "value": null
+        },
+        "serverfarms_ServicePlan93fd1d93_a27a_name": {
+            "value": null
+        },
+        "storageAccounts_storagewebjobtest001_name": {
+            "value": null
+        },
+        "hostNameBindings_testwebjob984.azurewebsites.net_name": {
+            "value": null
+        }
+    }
+}

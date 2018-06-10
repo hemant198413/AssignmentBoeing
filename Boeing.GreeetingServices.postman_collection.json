@@ -1,0 +1,70 @@
+{
+	"id": "e6b84139-9c42-b7c7-820e-54f867af6403",
+	"name": "Boeing.GreeetingServices",
+	"description": "Assignment for Boeing",
+	"auth": null,
+	"events": null,
+	"variables": null,
+	"order": [
+		"b3a0e48c-1f54-513e-a10f-60e10d22a34a",
+		"d50a3d6c-dffc-1504-c85b-e9213eb1cb78"
+	],
+	"folders_order": [],
+	"folders": [],
+	"owner": "1702666",
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "b3a0e48c-1f54-513e-a10f-60e10d22a34a",
+			"name": "Get Hello World Greeting Service",
+			"url": "http://testwebjob984.azurewebsites.net/api/v2/greetings",
+			"description": null,
+			"data": [],
+			"dataMode": "params",
+			"headerData": [],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"collectionId": "e6b84139-9c42-b7c7-820e-54f867af6403",
+			"headers": "",
+			"pathVariables": [],
+			"collection_id": "e6b84139-9c42-b7c7-820e-54f867af6403",
+			"preRequestScript": "",
+			"tests": ""
+		},
+		{
+			"id": "d50a3d6c-dffc-1504-c85b-e9213eb1cb78",
+			"name": "PostName Greeting Service",
+			"url": "http://testwebjob984.azurewebsites.net/api/v2/greetings",
+			"description": null,
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"currentHelper": null,
+			"helperAttributes": null,
+			"collectionId": "e6b84139-9c42-b7c7-820e-54f867af6403",
+			"rawModeData": "{\"PersonName\":\"Hemant Lanjewar\"}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": [],
+			"collection_id": "e6b84139-9c42-b7c7-820e-54f867af6403",
+			"preRequestScript": "",
+			"tests": ""
+		}
+	]
+}

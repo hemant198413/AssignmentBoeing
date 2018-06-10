@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "sites_greetingsServices_name": {
+      "value": "[variables('WebAppName')]"
+    },
+    "config_web_name": {
+      "value": "[variables('WebConfiguration')]"
+    },
+    "serverfarms_ServicePlan01976dcd_89d9_name": {
+      "value": "[variables('ServerFarm')]"
+    },
+    "hostNameBindings_greetingsservices.azurewebsites.net_name": {
+      "value": "[variables('HostBinding')]"
+    }
+  }
+}
